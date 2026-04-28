@@ -44,7 +44,17 @@ class ChatsAndProfile extends StatelessWidget {
                             : null,
                       ),
                       const SizedBox(width: 10),
-                      Expanded(child: Text('Hi, ${user.username}', style: AppTextStyles.black18)),
+                      Flexible(
+                        child: Column(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text('Hi, ${user.username}', style: AppTextStyles.black18),
+                            Text('You can chat, message other users and enjoy right now!', style: AppTextStyles.bodyText, ),
+                          ],
+                        ),
+                      ),
+                      
                     ],
                   ),
                 );

@@ -10,9 +10,9 @@ class AppTextStyles {
 
   // Body Text Style
   static const TextStyle bodyText = TextStyle(
-    fontSize: 16,
+    fontSize: 12,
     fontWeight: FontWeight.normal,
-    color: Colors.grey,
+    color: Colors.black45,
   );
 
   // Link or Action Style
