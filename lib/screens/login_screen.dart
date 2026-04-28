@@ -94,10 +94,10 @@ class _LoginScreenState extends State<LoginScreen> {
                                       context,
                                       'entered successfully',
                                     );
-                                    // Navigator.pushNamed(
-                                    //   context,
-                                    //   'SetProfileIcon',
-                                    // );
+                                    Navigator.pushNamed(
+                                      context,
+                                      'chatsProfile',
+                                    );
                                   } on FirebaseAuthException catch (e) {
                                     print(e.code);
 
