@@ -1,17 +1,29 @@
 import 'package:flutter/material.dart';
 import 'package:fluxchat/constants/consts.dart';
+import 'package:fluxchat/screens/chat_screen.dart';
 
 class ChatBar extends StatelessWidget {
   final String name;
   final String? avatar;
+  final String email;
 
-  const ChatBar({super.key, required this.name, this.avatar});
+  const ChatBar({
+    super.key,
+    required this.name,
+    this.avatar,
+    required this.email,
+  });
 
   @override
   Widget build(BuildContext context) {
     return InkWell(
       onTap: () {
-        Navigator.pushNamed(context, 'ChatScreen');
+        Navigator.push(
+          context,
+          MaterialPageRoute(
+            builder: (context) => ChatScreen(friendEmail: email),
+          ),
+        );
       },
       child: Container(
         padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),

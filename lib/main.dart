@@ -27,7 +27,7 @@ class FluxChatApp extends StatelessWidget {
         'SignUpScreen': (context) => SignUpScreen(),
         'SetProfileIcon': (context) => SetProfileIcon(),
         'chatsProfile': (context) => ChatsAndProfile(),
-        'ChatScreen': (context) => ChatScreen(),
+        //'ChatScreen': (context) => ChatScreen(),
       },
       initialRoute: 'SplashScreen',
     );

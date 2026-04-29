@@ -33,6 +33,7 @@ class UsersList extends StatelessWidget {
             return ChatBar(
               name: userData['username'] ?? 'Unknown User',
               avatar: userData['avatar'],
+              email: userData['email'],
             );
           },
         );
