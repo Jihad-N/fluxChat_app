@@ -59,9 +59,19 @@ lib/
 
 ```
 ##📸 Screenshots
-
+<!--
 ![Chat Screen](assets/screenshots/splashscreen.png)
 ![Login Screen](assets/screenshots/login.png)
 ![Profile Screen](assets/screenshots/profile.png)
 ![Chat Screen](assets/screenshots/chat.png)
-![Profile Screen](assets/screenshots/no-chat.png)
+![Profile Screen](assets/screenshots/no-chat.png) -->
+<p align="center">
+  <img src="assets/screenshots/splashscreen.png" alt="Splash Screen" width="200"/>
+  <img src="assets/screenshots/login.png" alt="Login Screen" width="200"/>
+  <img src="assets/screenshots/profile.png" alt="Profile Screen" width="200"/>
+</p>
+
+<p align="center">
+  <img src="assets/screenshots/chat.png" alt="Chat Screen" width="200"/>
+  <img src="assets/screenshots/no-chat.png" alt="No Chat Screen" width="200"/>
+</p>
