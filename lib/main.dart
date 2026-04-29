@@ -1,7 +1,6 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:fluxchat/firebase_options.dart';
-import 'package:fluxchat/screens/chat_screen.dart';
 import 'package:fluxchat/screens/chats_and_profile.dart';
 import 'package:fluxchat/screens/login_screen.dart';
 import 'package:fluxchat/screens/set_profile_icon.dart';
