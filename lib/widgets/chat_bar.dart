@@ -38,8 +38,11 @@ class ChatBar extends StatelessWidget {
             CircleAvatar(
               radius: 30,
               backgroundImage: avatar != null && avatar!.isNotEmpty
-                  ? AssetImage(avatar!) // Fetches from URL
-                  : const Icon(Icons.person) as ImageProvider,
+                  ? AssetImage(avatar!) // Asset image
+                  : null,
+              child: avatar == null || avatar!.isEmpty
+                  ? const Icon(Icons.person)
+                  : null,
             ),
             const SizedBox(width: 15),
             Text(
